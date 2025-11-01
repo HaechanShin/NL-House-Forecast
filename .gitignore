@@ -205,3 +205,44 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific additions for House Price Prediction
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+houses.db
+
+# Large data files
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+data/database/*.db
+
+# Machine learning models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.model
+
+# Logs
+logs/
+*.log
+
+# API keys and secrets
+config/api_keys.py
+config/secrets.py
+.secrets
+
+# Jupyter notebook outputs (optional - uncomment if you want to ignore outputs)
+# *.ipynb
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
